@@ -106,24 +106,68 @@ main {
 section#item1 {
     background-color: #f8c09b;
 
-    height: 520px;
+    height: 550px;
 
     margin: 15px 20px;
 
-    padding: 16px;
+    padding: 20px;
+
+    padding-top: 80px;
 
     border-radius: 25px;
 
     display: flex;
     
+    align-items: center;
 }
 
 section#item1 h3 {
-    margin-top: 0px;
+    font-size: 40px;
+
+    color: white;
+
+    margin: 5px 0px;
+
+    position: relative;
+
+    right: -50%;
 }
 
+section#item1 h2 {
+    position: relative;
+
+    font-size: 50px;
+
+    margin: 5px 0px;
+
+    right: -50%;
+}
+
+section#item1 h1 {
+    font-size: 70px;
+
+    color: white;
+
+    width: 700px;
+
+    margin: 5px 0px;
+
+    position: relative;
+
+    right: -50%;
+}
+
+
 div#imagem1 img {
-    width: 350px;
+    width: 360px;
+
+    padding-bottom: 250px;
+
+    position: relative;
+
+    left: -30%;
+
+    
 }
 
 div#button > input {
@@ -141,10 +185,31 @@ div#button > input {
     font-family: 'Kanit' sans-serif;
 
     font-weight: 500;
+
+    margin-top: 50px;
+
+    position: relative;
+
+    right: -50%;
 }
 
 section#item1 > aside {
     width: 200px;
+
+    position: relative;
+
+    top: 30%;
+
+    left: -7%;
+
+    text-align: justify;
+
+    background-color: rgb(255, 173, 141);
+
+    padding: 7px;
+
+    border: 1px solid rgb(206, 122, 94);
+    border-radius: 15px;
 }
    
    
