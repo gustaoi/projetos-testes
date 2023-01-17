@@ -124,7 +124,7 @@ section#item1 {
 }
 
 section#item1 h3 {
-    font-size: 50px;
+    font-size: 55px;
 
     color: white;
 
@@ -132,21 +132,21 @@ section#item1 h3 {
 
     position: relative;
 
-    right: -40%;
+    right: -35%;
 }
 
 section#item1 h2 {
     position: relative;
 
-    font-size: 60px;
+    font-size: 70px;
 
     margin: 5px 0px;
 
-    right: -40%;
+    right: -35%;
 }
 
 section#item1 h1 {
-    font-size: 70px;
+    font-size: 80px;
 
     color: white;
 
@@ -156,14 +156,14 @@ section#item1 h1 {
 
     position: relative;
 
-    right: -40%;
+    right: -35%;
 }
 
 
 div#imagem1 img {
-    width: 360px;
+    width: 380px;
 
-    padding-bottom: 250px;
+    padding-bottom: 220px;
 
     position: relative;
 
@@ -192,13 +192,15 @@ div#button > input {
 
     position: relative;
 
-    right: -43%;
+    right: -37%;
 }
 
 div#button input:hover {
     color: white;
 
     background-color: rgba(173, 48, 48, 0.849);
+
+    cursor: pointer;
 }
 
 section#item1 > aside {
@@ -212,7 +214,9 @@ section#item1 > aside {
 
     text-align: justify;
 
-    background-color: rgb(255, 173, 141);
+    background-color: #FFBBA8;
+
+    color: rgb(141, 45, 13);
 
     padding: 7px;
 
@@ -234,7 +238,7 @@ section.item2 {
 
     margin-left: 20px;
 
-    padding: 20px 35px;
+    padding: 20px 45px;
     
     background-color: #67ddcb;
 
@@ -262,7 +266,7 @@ section.item2 {
 .garnet {
     height: 500px;
 
-    padding: 20px 35px;
+    padding: 20px 45px;
     
     background-color: #d42c61;
     
@@ -288,7 +292,7 @@ section.item2 {
 
     margin-right: 20px;
 
-    padding: 20px;
+    padding: 20px 15px;
 
     background-color: #605F81;
 
