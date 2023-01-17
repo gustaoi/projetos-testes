@@ -22,9 +22,11 @@ header {
     background: linear-gradient(to top,#f7e6be, #f3d094c7);
 }
 
-nav {
-    
+.logo img {
+    width: 80px;
+}
 
+nav {
     display: flex;
 
     align-items: center;
@@ -108,7 +110,7 @@ section#item1 {
 
     height: 550px;
 
-    margin: 15px 20px;
+    margin: 17px 20px;
 
     padding: 20px;
 
@@ -122,7 +124,7 @@ section#item1 {
 }
 
 section#item1 h3 {
-    font-size: 40px;
+    font-size: 50px;
 
     color: white;
 
@@ -130,17 +132,17 @@ section#item1 h3 {
 
     position: relative;
 
-    right: -50%;
+    right: -40%;
 }
 
 section#item1 h2 {
     position: relative;
 
-    font-size: 50px;
+    font-size: 60px;
 
     margin: 5px 0px;
 
-    right: -50%;
+    right: -40%;
 }
 
 section#item1 h1 {
@@ -154,7 +156,7 @@ section#item1 h1 {
 
     position: relative;
 
-    right: -50%;
+    right: -40%;
 }
 
 
@@ -186,11 +188,17 @@ div#button > input {
 
     font-weight: 500;
 
-    margin-top: 50px;
+    margin-top: 45px;
 
     position: relative;
 
-    right: -50%;
+    right: -43%;
+}
+
+div#button input:hover {
+    color: white;
+
+    background-color: rgba(173, 48, 48, 0.849);
 }
 
 section#item1 > aside {
@@ -211,9 +219,98 @@ section#item1 > aside {
     border: 1px solid rgb(206, 122, 94);
     border-radius: 15px;
 }
+
+/* BEGIN ITEM 2 3 4 */
    
-   
-   
+section.item2 {
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.pearl {
+    height: 500px;
+
+    margin-left: 20px;
+
+    padding: 20px 35px;
+    
+    background-color: #67ddcb;
+
+    
+    border-radius: 20px;
+    border: 2px solid #ffde7b;
+
+    display: flex;
+
+    align-items: flex-end;
+}
+
+.pearl img{
+    width: 230px;
+
+    opacity: 0.6;
+}
+
+.pearl img:hover {
+    opacity: 1;
+
+    cursor: pointer;
+}
+
+.garnet {
+    height: 500px;
+
+    padding: 20px 35px;
+    
+    background-color: #d42c61;
+    
+    border-radius: 20px;
+    border: 2px solid #870020;
+
+}
+
+.garnet img{
+    width: 290px;
+
+    opacity: 0.6;
+}
+
+.garnet img:hover {
+    opacity: 1;
+
+    cursor: pointer;
+}
+
+.ametista {
+    height: 500px;
+
+    margin-right: 20px;
+
+    padding: 20px;
+
+    background-color: #605F81;
+
+    border-radius: 20px;
+    border: 2px solid #232228;
+    
+    display: flex;
+
+    align-items: flex-end;
+}
+
+.ametista img{
+    width: 300px;
+
+    opacity: 0.6;
+}
+
+.ametista img:hover {
+    opacity: 1;
+
+    cursor: pointer;
+}
    
    
    
