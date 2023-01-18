@@ -4,22 +4,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap');
 
 body {
- font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
-    
+
 }
 
 header {
     padding: 16px 0;
 
     display: flex;
-    
+
 
     justify-content: space-evenly;
 
     justify-items: center;
 
-    background: linear-gradient(to top,#f7e6be, #f3d094c7);
+    background: linear-gradient(to top, #f7e6be, #f3d094c7);
 }
 
 .logo img {
@@ -32,7 +32,7 @@ nav {
     align-items: center;
 }
 
-nav > ul {
+nav>ul {
     padding-left: 0;
 
     margin: 0;
@@ -64,9 +64,9 @@ img {
     align-items: center;
     position: relative;
     max-width: 190px;
-   }
-   
-   .input {
+}
+
+.input {
     width: 100%;
     height: 40px;
     line-height: 28px;
@@ -78,32 +78,31 @@ img {
     background-color: #f3f3f4;
     color: #0d0c22;
     transition: .3s ease;
-   }
-   
-   .input::placeholder {
+}
+
+.input::placeholder {
     color: #9e9ea7;
-   }
-   
-   .input:focus, input:hover {
+}
+
+.input:focus,
+input:hover {
     outline: none;
-    border-color: rgba(234,76,137,0.4);
+    border-color: rgba(234, 76, 137, 0.4);
     background-color: #fff;
     box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
-   }
-   
-   .icon {
+}
+
+.icon {
     position: absolute;
     left: 1rem;
     fill: #9e9ea7;
     width: 1rem;
     height: 1rem;
-   }
+}
 
 /*begin main */
 
-main {
-    
-}
+main {}
 
 section#item1 {
     background-color: #f8c09b;
@@ -119,7 +118,7 @@ section#item1 {
     border-radius: 25px;
 
     display: flex;
-    
+
     align-items: center;
 }
 
@@ -169,10 +168,10 @@ div#imagem1 img {
 
     left: -30%;
 
-    
+
 }
 
-div#button > input {
+div#button>input {
     width: 170px;
     height: 40px;
 
@@ -203,7 +202,7 @@ div#button input:hover {
     cursor: pointer;
 }
 
-section#item1 > aside {
+section#item1>aside {
     width: 200px;
 
     position: relative;
@@ -225,7 +224,7 @@ section#item1 > aside {
 }
 
 /* BEGIN ITEM 2 3 4 */
-   
+
 section.item2 {
     display: flex;
 
@@ -239,10 +238,10 @@ section.item2 {
     margin-left: 20px;
 
     padding: 20px 45px;
-    
+
     background-color: #67ddcb;
 
-    
+
     border-radius: 20px;
     border: 2px solid #ffde7b;
 
@@ -251,7 +250,7 @@ section.item2 {
     align-items: flex-end;
 }
 
-.pearl img{
+.pearl img {
     width: 230px;
 
     opacity: 0.6;
@@ -267,15 +266,15 @@ section.item2 {
     height: 500px;
 
     padding: 20px 45px;
-    
+
     background-color: #d42c61;
-    
+
     border-radius: 20px;
     border: 2px solid #870020;
 
 }
 
-.garnet img{
+.garnet img {
     width: 290px;
 
     opacity: 0.6;
@@ -298,13 +297,13 @@ section.item2 {
 
     border-radius: 20px;
     border: 2px solid #232228;
-    
+
     display: flex;
 
     align-items: flex-end;
 }
 
-.ametista img{
+.ametista img {
     width: 300px;
 
     opacity: 0.6;
@@ -315,6 +314,3 @@ section.item2 {
 
     cursor: pointer;
 }
-   
-   
-   
